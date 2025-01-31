@@ -354,3 +354,69 @@ body {
   display: inline-block;
   margin-top: 10px;
 }
+ 
+/* additional */
+/* Progress Bar */
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: #ffeb3b;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Game Info (Lives, Timer, Streak) */
+.game-info {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* Answer Buttons */
+.correct {
+  background: #4caf50 !important;
+}
+
+.incorrect {
+  background: #e53935 !important;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ⏳ Timer Styling */
+.timer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* ⏳ Timer Turns Red When Below 5 Seconds */
+.red-timer {
+  color: #ff3b3b;
+  font-weight: bold;
+  animation: blink 0.8s infinite alternate;
+}
+
+/* 🔴 Blinking Animation When Time is Running Out */
+@keyframes blink {
+  from { opacity: 1; }
+  to { opacity: 0.5; }
+}
