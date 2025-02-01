@@ -86,10 +86,11 @@ Visit **[http://localhost:3000](http://localhost:3000)** to use the application.
 ---
 
 ## 🖼 Screenshots
-📌 
-![Home Page](screenshots/homepage.png)  
-![Quiz Page](screenshots/quizpage.png)  
-![Results Page](screenshots/resultspage.png)  
+📌  
+![Home Page](public/screenshots/homepage.png)  
+![Quiz Page](public/screenshots/quizpage.png)  
+![Results Page](public/screenshots/resultspage.png)  
+
 
 ---
 
@@ -102,7 +103,7 @@ Visit **[http://localhost:3000](http://localhost:3000)** to use the application.
 
 ## 👨‍💻 Author
 - **Himanshu-test-account**  
-- 📧 Contact: **your-email@example.com**  
+- 📧 Contact: himanshuyadav1727@gmail.com   
 - 🔗 GitHub: **[Himanshu-test-account](https://github.com/Himanshu-test-account)**  
 
 ---
