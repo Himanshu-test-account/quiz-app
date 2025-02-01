@@ -86,7 +86,7 @@ Visit **[http://localhost:3000](http://localhost:3000)** to use the application.
 ---
 
 ## 🖼 Screenshots
-📌 *(Replace with actual screenshots after setup)*  
+📌 
 ![Home Page](screenshots/homepage.png)  
 ![Quiz Page](screenshots/quizpage.png)  
 ![Results Page](screenshots/resultspage.png)  
