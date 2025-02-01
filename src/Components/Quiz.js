@@ -39,14 +39,14 @@ const Quiz = ({ onFinish }) => {
   // ✅ Add handleNextQuestion as a dependency to useEffect
   useEffect(() => {
     if (timer > 0) {
-      const countdown = setTimeout(() => setTimer(timer - 1), 1000);
+      const count = setTimeout(() => setTimer(timer - 1), 1000);
 
-      // Play countdown sound when timer is less than 5 seconds
+      // Play count sound when timer is less than 5 seconds
       if (timer <= 5) {
-        playSound("countdown");
+        playSound("count");
       }
 
-      return () => clearTimeout(countdown);
+      return () => clearTimeout(count);
     } else {
       handleNextQuestion(); // Auto move to next if time runs out
     }
@@ -78,7 +78,7 @@ const Quiz = ({ onFinish }) => {
     const soundMap = {
       correct: "/sounds/correct.mp3",
       wrong: "/sounds/wrong.mp3",
-      countdown: "/sounds/countdown.mp3",
+      count: "/sounds/count.mp3",
       win: "/sounds/win.mp3",
       gameover: "/sounds/gameover.mp3",
     };
